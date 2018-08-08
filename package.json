@@ -4,6 +4,7 @@
   "description": "a simple server that can mock data and proxy requests.",
   "main": "src/index.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/rhinonan/dev-server/issues"
   },
-  "homepage": "https://github.com/rhinonan/dev-server#readme"
+  "homepage": "https://github.com/rhinonan/dev-server#readme",
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
 }
